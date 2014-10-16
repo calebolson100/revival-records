@@ -17,6 +17,24 @@ footer {
   padding:10px;
 }
 
+/*Embedded Google map*/
+
+#map-outer {  
+	height: 440px;
+	padding: 10px;
+	border: 2px solid #CCC;
+}
+#map-container {
+	height: 400px;
+}
+.pointer:hover{
+	cursor:pointer;
+}
+	
+.rowTextCentered{
+	text-align:center;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 

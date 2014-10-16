@@ -27,11 +27,42 @@
 </head>
 
 <body>
-	<br/><br/><br/>
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="img/logo.png"/></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About the Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Records <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+				    <li><a href="records.html">About our Records</a></li>
+                    <li><a href="recordcatalog.html">View all Records</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Send Request</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+		
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	<!--This is the embedded google map of store location-->
 	<div class="container">
 	  <div class="row">
-		  <div id="map-outer" class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
+		  <div id="map-outer" class="col-lg-7 col-md-8 col-sm-12 col-xs-12" style="height:440px;padding:10px;border:2px solid #CCC;">
 			  <div id="address" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rowTextCentered">
 				<h2>Our Location</h2>
 				<address>
@@ -42,7 +73,7 @@
 					<abbr>Phone:</abbr> 715-514-4202
 			   </address>
 			  </div>
-			<div id="map-container" class="col-lg-8 col-md-8 col-sm-12 col-xs-12"></div>
+			<div id="map-container" class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="height:400px;"></div>
 		  </div><!-- /map-outer -->
 		  
 		  <div class="col-lg-4 col-lg-offset-1 col-md-4 col-sm-12 col-xs-12 rowTextCentered">
@@ -68,7 +99,15 @@
 		</table>
 	</div>
 	<br/>
+<nav class="navbar navbar-fixed-bottom" role="navigation">
+    <footer>
+      <div class="container">
+		<p class="pull-right"><a href="#">128 S. Barstow St &middot; Eau Claire</a></p>
+        <p><a href="#">715-514-4202</a></p>
+    </footer>
 
+    </div><!-- /.container -->
+</nav>
 </body>
 
 </html> 
